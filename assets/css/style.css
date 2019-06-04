@@ -1,0 +1,36 @@
+/*  
+ *  font-family: 'Acme', sans-serif; 
+ *  font-family: 'VT323', monospace;
+ */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Acme", sans-serif;
+  color: darkkhaki;
+}
+
+.container {
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  background-image: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: "VT323", monospace;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.center {
+  justify-content: center;
+}

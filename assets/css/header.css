@@ -1,0 +1,12 @@
+header {
+  width: 100%;
+  height: 10vh;
+  border-bottom: ridge 3px lightslategray;
+  background-color: #333;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}

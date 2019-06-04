@@ -1,0 +1,9 @@
+footer {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  border-top: ridge 3px lightslategray;
+
+  background-color: #333;
+}

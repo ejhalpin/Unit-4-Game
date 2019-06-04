@@ -1,0 +1,64 @@
+.tradeStyle {
+  border: groove 3px lightslategray;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+#trader {
+  width: 15vw;
+  height: 16.57vw;
+  border: groove 3px lightslategray;
+  border-radius: 1vw;
+  background-color: lightgray;
+}
+
+#trade-window {
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+  background-color: darkkhaki;
+  color: #333;
+  opacity: 1;
+  padding: 10px;
+  border: groove 3px lightslategray;
+  border-radius: 10px;
+  opacity: 0.8;
+  justify-content: space-evenly;
+}
+#button-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#trade-value {
+  width: 30vw;
+  height: 16.57vw;
+  font-size: 50px;
+}
+.number {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#resource-box {
+  margin: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+#your-trade {
+  width: 20%;
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+#stats {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#trade-value.text {
+  font-size: 20px;
+}
